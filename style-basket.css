@@ -1,0 +1,414 @@
+*{
+    padding-top: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    padding-bottom: 400px;
+}
+.navbar{
+    justify-content: space-between;
+    display: flex;
+}
+.background{
+    width: 100%;
+}
+.bar{
+    background-color: rgb(255, 253, 253);
+    border-color: rgb(10, 9, 9);
+    display: flex;
+    line-height: 3;
+    justify-content: right;
+    list-style: none;
+    height: 50px;
+    width: 1000px;
+    padding-left: 365px;
+}
+.bar a img{
+    width: auto;
+    height: 30px;
+    padding-top: 10px;
+}
+.bar-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 530px;
+    gap: 25px;
+    margin-right: 10px;
+}
+.bar-left a{
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+.bar-left a p{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    transition: all 0.2;
+}
+.bar-left a p:hover{
+    transform: none;
+    color: gray;
+    text-decoration: underline;
+}
+.bar1{
+    background-color: rgb(255, 253, 253);
+    border-color: black;
+    display: flex;
+    line-height: 3;
+    justify-content: right;
+    list-style: none;
+    height: 50px;
+    box-shadow: 0px 20px 20px 1px rgba(5, 5, 5, 0.596);
+    margin-top: 0px;
+    padding-left: 365px;
+    width: 1000px;
+}
+.bar1 a {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration-line: none;
+    text-align: right;
+    padding-right: 10px;
+    color: rgb(10, 10, 10);
+    transition: all 0.1;
+}
+.bar1 a :hover{
+    transform: none;
+    color: gray;
+    text-decoration:underline;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    position: relative;
+    width: 800px; 
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#searchInput {
+    width: 200px;
+    height: 40px;
+    padding: 0 45px 0 20px; 
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-radius: 25px; 
+    outline: none;
+    transition: all 0.3s ease;
+    text-align: right;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#searchInput:focus {
+    border-color: #3498db;
+    box-shadow: 0px 4px 15px rgba(52, 152, 219, 0.3);
+}
+
+.search-icon {
+    position: absolute;
+    right: 35px;
+    color: #7f8c8d;
+    font-size: 16px;
+    pointer-events: none; 
+}
+.name-logo{
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 10px;
+}
+.listdown{
+    display: inline-block;
+    position: relative;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+.listbtn{
+    background-color: white;
+    border: none;
+}
+.listbtn img{
+    float: right;
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+.list-icons{
+    width: 3px;
+    height: 3px;
+    display: flexbox;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 14px;
+}
+.listbtn-content{
+    display: none;
+    position:absolute;
+    top: 85%;
+    right: 10%;
+    background-color: rgb(253, 253, 253);
+    width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(5, 5, 5, 0.966);
+    z-index: 1;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.listbtn-content img{
+    width: 40px;
+    height: 40px;
+}
+.listbtn-content p{
+    color: rgb(114, 17, 17);
+    font-weight: bold;
+    text-decoration: none;
+    display:block;
+    text-align: center;
+    border-bottom: 1px solid rgb(77, 76, 75);
+}
+.listbtn-content a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid rgb(77, 76, 75);
+}
+.listbtn-content a:hover{
+    background-color: rgba(132, 131, 133, 0.185);
+}
+.listdown:hover .listbtn-content{
+    display: block;
+}
+.table1{
+    width: 100%;
+}
+#taskList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 20px;
+    justify-content: center;
+}
+#taskList .basket-item{
+   background-color: #ffffff; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 15px; 
+    padding: 20px; 
+    width: 240px;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    box-sizing: border-box;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.basket-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    list-style: none;
+    padding: 40px;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.basket-item { 
+    background-color: #fff; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 15px; 
+    padding: 20px; 
+    width: 240px;  
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    box-sizing: border-box;
+}
+#taskList .basket-item:hover{
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+.basket-item-img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.basket-item-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+.qty-input{
+    width: 100px;
+    height: 25px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.total-price-container {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 30px; 
+    padding: 15px 40px;
+    width: fit-content;
+    margin: 30px auto; 
+    text-align: center;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+.total-price-container p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+#finalTotalPrice {
+    color: #27ae60; 
+    font-size: 24px;
+    margin-right: 10px;
+}
+.empty-message {
+    text-align: center;
+    color: #bdc3c7;
+    font-size: 18px;
+    padding: 40px;
+    width: 100%;
+    font-weight: bold;
+}
+.b-img{
+    margin-right: 10px;
+    padding-left: 150px;
+}
+.b-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(5, 5, 5, 0.966);
+    display: flex;
+    transition: all 0.3;
+}
+.b-img :hover{
+   transform: scale(1.1);
+}
+.b-img.completed{
+    padding-right: 130px;
+}
+.b-img.completed p{
+    text-align: center;
+    text-decoration-line: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.b-p1 p{
+    text-align: center;
+    text-decoration-line: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    padding-left: 60px;
+}
+.b-p1 input{
+    width: 50px;
+    height: 25px;
+    background-color:   rgba(184, 183, 183, 0.5);
+    border-radius: 30px;
+    border-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(5, 5, 5, 0.966);
+    margin-left: 95px;
+    padding-left: 10px;
+}
+.btn-delete {
+    background-color: #e74c3c; 
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 200px;
+    transition: background-color 0.2s;
+}
+.btn-delete:hover {
+    background-color: #c0392b; 
+}
+.task-actions {
+    display: flex;
+    gap: 8px;
+}
+.b-p input{
+    width: 50px;
+    height: 25px;
+    background-color:   rgba(184, 183, 183, 0.5);
+    border-radius: 30px;
+    border-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(5, 5, 5, 0.966);
+    padding-left: 10px;
+    margin-left: 40px;
+}
+.b-img1{
+    margin-right: 20px;
+    padding-left: 90px;
+}
+.b-img1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(5, 5, 5, 0.966);
+    display: flex;
+    transition: all 0.3;
+}
+.b-img1 img:hover{
+   transform: scale(1.1);
+}
+.total{
+    padding-left: 260px;
+    padding-top: 300px;
+}
+.total p{
+    width: 170px;
+    height: 40px;
+    background-color:   rgba(184, 183, 183, 0.5);
+    border-radius: 30px;
+    border-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(5, 5, 5, 0.966);
+    padding-left: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 13px;
+}
+.pay{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(184, 183, 183, 0.5);
+    border-radius: 30px;
+    border-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(5, 5, 5, 0.966);
+    padding-left: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
