@@ -21,8 +21,7 @@
     list-style: none;
     height: 50px;
     box-shadow: 0px 20px 20px 0px rgba(5, 5, 5, 0.596);
-    padding-left: 365px;
-    width: 984px;
+    width: 99vw;
 }
 .bar2 a {
     font-size: 15px;
