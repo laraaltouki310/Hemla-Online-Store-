@@ -11,11 +11,9 @@
     padding-bottom: 400px;
 }
 .navbar{
-    justify-content: space-between;
     display: flex;
-}
-.background{
-    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 .bar{
     background-color: rgb(255, 253, 253);
@@ -25,10 +23,40 @@
     justify-content: right;
     list-style: none;
     height: 50px;
-    width: 1000px;
-    padding-left: 365px;
+    width: 100vw;
+}
+.bar1{
+    background-color: rgb(255, 253, 253);
+    border: black;
+    display: flex;
+    line-height: 3;
+    justify-content: right;
+    gap: 20px;
+    list-style: none;
+    height: 50px;
+    box-shadow: 0px 20px 20px 0px rgba(5, 5, 5, 0.596);
+    margin-top: 0;
+    width: 101vw;
+}
+.bar1 a {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    color: rgb(10, 10, 10);
+    transition: all 0.1;
+    text-decoration: none;
+}
+.bar1 a p:hover{
+    transform: none;
+    color: gray;
+    text-decoration:underline;
 }
 .bar a img{
+    width: auto;
+    height: 30px;
+    padding-top: 10px;
+}
+.img-user{
     width: auto;
     height: 30px;
     padding-top: 10px;
@@ -37,14 +65,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-right: 530px;
+    padding-right: 0px;
     gap: 25px;
     margin-right: 10px;
 }
 .bar-left a{
     display: flex;
     gap: 8px;
-    text-align: center;
+    text-align: right;
+
     text-decoration: none;
 }
 .bar-left a p{
@@ -59,44 +88,17 @@
     color: gray;
     text-decoration: underline;
 }
-.bar1{
-    background-color: rgb(255, 253, 253);
-    border-color: black;
-    display: flex;
-    line-height: 3;
-    justify-content: right;
-    list-style: none;
-    height: 50px;
-    box-shadow: 0px 20px 20px 1px rgba(5, 5, 5, 0.596);
-    margin-top: 0px;
-    padding-left: 365px;
-    width: 1000px;
-}
-.bar1 a {
-    font-size: 15px;
-    font-weight: bold;
-    text-decoration-line: none;
-    text-align: right;
-    padding-right: 10px;
-    color: rgb(10, 10, 10);
-    transition: all 0.1;
-}
-.bar1 a :hover{
-    transform: none;
-    color: gray;
-    text-decoration:underline;
-}
 .search-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px auto;
+    margin-top: 5px;
     position: relative;
-    width: 800px; 
+    margin-left: 500px;
+    width: 400px;
     padding: 0 20px;
     box-sizing: border-box;
 }
-
 #searchInput {
     width: 200px;
     height: 40px;
