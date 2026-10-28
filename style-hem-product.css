@@ -10,9 +10,8 @@
     background-size: cover ;
 }
 .navbar{
+    justify-content: space-between;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .background{
     width: 100%;
@@ -55,44 +54,13 @@
     border-color: rgb(10, 9, 9);
     display: flex;
     line-height: 3;
-    justify-content: flex-end;
-    list-style: none;
-    padding-left: 100px;
-    height: 50px;
-    width: 99vw;
-}
-.bar1{
-    background-color: rgb(255, 253, 253);
-    border: black;
-    display: flex;
-    line-height: 3;
     justify-content: right;
-    gap: 20px;
     list-style: none;
     height: 50px;
-    box-shadow: 0px 20px 20px 0px rgba(5, 5, 5, 0.596);
-    margin-top: 0;
-    width: 99vw;
-}
-.bar1 a {
-    font-size: 15px;
-    font-weight: bold;
-    text-align: right;
-    color: rgb(10, 10, 10);
-    transition: all 0.1;
-    text-decoration: none;
-}
-.bar1 a p:hover{
-    transform: none;
-    color: gray;
-    text-decoration:underline;
+    width: 984px;
+    padding-left: 365px;
 }
 .bar a img{
-    width: auto;
-    height: 30px;
-    padding-top: 10px;
-}
-.img-user{
     width: auto;
     height: 30px;
     padding-top: 10px;
@@ -101,14 +69,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-right: 0px;
+    padding-right: 530px;
     gap: 25px;
     margin-right: 10px;
 }
 .bar-left a{
     display: flex;
     gap: 8px;
-    text-align: right;
+    text-align: center;
     text-decoration: none;
 }
 .bar-left a p{
@@ -123,17 +91,43 @@
     color: gray;
     text-decoration: underline;
 }
+.bar1{
+    background-color: rgb(255, 253, 253);
+    border-color: black;
+    display: flex;
+    line-height: 3;
+    justify-content: right;
+    list-style: none;
+    height: 50px;
+    box-shadow: 0px 20px 20px 1px rgba(5, 5, 5, 0.596);
+    margin-top: 0px;
+    width: 99vw;
+}
+.bar1 a {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration-line: none;
+    text-align: right;
+    padding-right: 10px;
+    color: rgb(10, 10, 10);
+    transition: all 0.1;
+}
+.bar1 a :hover{
+    transform: none;
+    color: gray;
+    text-decoration:underline;
+}
 .search-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
+    margin: 30px auto;
     position: relative;
-    margin-left: 500px;
-    width: 400px;
+    width: 800px; 
     padding: 0 20px;
     box-sizing: border-box;
 }
+
 #searchInput {
     width: 200px;
     height: 40px;
@@ -171,7 +165,6 @@
     position: relative;
     padding-right: 15px;
     padding-top: 5px;
-    width: 99vw;
 }
 .listbtn{
     background-color: white;
