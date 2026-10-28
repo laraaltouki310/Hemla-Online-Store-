@@ -55,7 +55,8 @@
     border-color: rgb(10, 9, 9);
     display: flex;
     line-height: 3;
-    justify-content: right;
+    justify-content: flex-end;
+    aligh-items: flex-end;
     list-style: none;
     height: 50px;
     width: 99vw;
@@ -108,7 +109,6 @@
     display: flex;
     gap: 8px;
     text-align: right;
-
     text-decoration: none;
 }
 .bar-left a p{
