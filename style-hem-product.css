@@ -171,6 +171,7 @@
     position: relative;
     padding-right: 15px;
     padding-top: 5px;
+    width: 99vw;
 }
 .listbtn{
     background-color: white;
