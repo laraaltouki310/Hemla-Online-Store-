@@ -56,8 +56,8 @@
     display: flex;
     line-height: 3;
     justify-content: flex-end;
-    aligh-items: flex-end;
     list-style: none;
+    padding-left: 100px;
     height: 50px;
     width: 99vw;
 }
