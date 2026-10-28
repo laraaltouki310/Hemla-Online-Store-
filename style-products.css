@@ -84,6 +84,31 @@
     color: gray;
     text-decoration: underline;
 }
+.bar2{
+    background-color: rgba(185, 184, 184, 0.100);
+    display: flex;
+    line-height: 3;
+    justify-content: right;
+    list-style: none;
+    height: 50px;
+    box-shadow: 0px 20px 20px 0px rgba(5, 5, 5, 0.596);
+    padding-left: 365px;
+    width: 984px;
+}
+.bar2 a {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration-line: none;
+    text-align: right;
+    padding-right: 15px;
+    color: rgb(5, 5, 5);
+    transition: all 0.1;
+}
+.bar2 a :hover{
+    transform: none;
+    color: gray;
+    text-decoration:underline;
+}
 .search-container {
     display: flex;
     justify-content: center;
